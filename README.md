@@ -1,6 +1,10 @@
-# sistema-pedi-food
+# Sistema para gerenciamento de pedidos
 
-Sistema administrativo para gerenciamento de pedidos alimentícios. 
+Sistema administrativo para gerenciamento de pedidos, o sistema foi desenvolvido utilizando a linguagem de programação PHP, utilizado biblioteca javascript para utilização de ajax para consulta e intereção entre as telas. 
+O sistema utiliza armazenamento em banco de dados MYSQL, foi criado bancos de dados para controle fincanceiro, para cadastro de usuário e cadastro da empresa.
+Para cada empresa é criado um novo banco de dados e criado as tabelas do zero para utilização no sistema.
+
+O sistema consulta o banco de dados principal para encontrar usuário e senha e retornar os dados de conexão para acessar o banco de dados do cliente.
 
 ## Acesso ao banco de dados solicitar
 
