@@ -1,0 +1,129 @@
+.backgroud {
+    background-image: url(../../assets/images/background/background.jpg);
+    background-repeat: round;
+}
+
+.radius {
+    border-radius: 20px;
+}
+
+.widget-box {
+    background: none repeat scroll 0 0 rgb(249 249 249);
+    border-left: 1px solid rgb(205 205 205);
+    border-top: 1px solid rgb(205 205 205);
+    border-right: 1px solid rgb(205 205 205);
+    clear: both;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.widget-title,
+.ui-widget-header {
+    background: rgb(239 239 239);
+    border-bottom: 1px solid rgb(205 205 205);
+    height: 36px;
+}
+
+.widget-title span.icon {
+    padding: 9px 10px 7px 11px;
+    float: left;
+    border-right: 1px solid rgb(218 218 218);
+}
+
+.widget-title h5 {
+    color: rgb(102 102 102);
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px;
+    line-height: 12px;
+    margin: 0;
+}
+
+.widget-content {
+    padding: 15px;
+    border-bottom: 1px solid rgb(205 205 205);
+}
+
+.borda {
+    border: 1px solid rgb(204, 204, 204);
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    border: 1px solid #ddd;
+    display: inline-flex;
+    border-radius: 8px;
+}
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+}
+
+.number-input button {
+    outline: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 35px;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 1rem;
+    height: 2px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: 0px;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 1rem;
+    height: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link,
+.active i {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link,
+.active span {
+    color: #fff !important;
+}
+
+.sidebar-nav ul .sidebar-item .active {
+    background-color: rgb(45 45 45);
+}
